@@ -5,12 +5,12 @@
 <div class="card mb-3">
   <div class="row g-0">
     <div class="col-md-4">
-      <img src="{{ asset('/storage/'.$viewData["product"]->getImage()) }}" class="img-fluid rounded-start">
+      <img style="height: 400px" src="{{ asset('/storage/'.$viewData["product"]->getImage()) }}" class="img-fluid rounded-start " >
     </div>
     <div class="col-md-8">
       <div class="card-body">
         <h5 class="card-title">
-          {{ $viewData["product"]->getName() }} (${{ $viewData["product"]->getPrice() }})
+          {{ $viewData["product"]->getName() }} (Rp {{ $viewData["product"]->getPrice() }})
         </h5>
         <p class="card-text">{{ $viewData["product"]->getDescription() }}</p>
         <p class="card-text">
@@ -24,7 +24,7 @@
               </div>
             </div>
             <div class="col-auto">
-              <button class="btn bg-primary text-white" type="submit">Add to cart</button>
+              <button class="btn bg-primary text-white" type="submit">tambah ke keranjang</button>
             </div>
           </div>
         </form>
@@ -33,4 +33,5 @@
     </div>
   </div>
 </div>
+<div class="br" style="height: 60px"></div>
 @endsection

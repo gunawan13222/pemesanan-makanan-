@@ -14,7 +14,7 @@
 <body>
   <div class="row g-0">
     <!-- sidebar -->
-    <div class="p-3 col fixed text-white bg-dark">
+    <div class="p-3 col fixed text-white " style="background-color: #4E5DDC">
       <a href="{{ route('admin.home.index') }}" class="text-white text-decoration-none">
         <span class="fs-4">Admin Panel</span>
       </a>
@@ -23,7 +23,7 @@
         <li><a href="{{ route('admin.home.index') }}" class="nav-link text-white">- Admin - Home</a></li>
         <li><a href="{{ route('admin.product.index') }}" class="nav-link text-white">- Admin - Products</a></li>
         <li>
-          <a href="{{ route('home.index') }}" class="mt-2 btn bg-primary text-white">Go back to the home page</a>
+          <a href="{{ route('home.index') }}" class="mt-2 btn bg-light text-dark">Go back to the home page</a>
         </li>
       </ul>
     </div>

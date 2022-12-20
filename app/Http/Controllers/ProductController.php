@@ -12,7 +12,7 @@ class ProductController extends Controller
     {
         $viewData = [];
         $viewData["title"] = "Products - Online Store";
-        $viewData["subtitle"] =  "List of products";
+        $viewData["subtitle"] =  "produk";
         $viewData["products"] = Product::all();
         return view('product.index')->with("viewData", $viewData);
     }

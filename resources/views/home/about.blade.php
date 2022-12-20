@@ -12,4 +12,5 @@
     </div>
   </div>
 </div>
+<div class="br" style="height: 250px"></div>
 @endsection
