@@ -1,3 +1,12 @@
+<h1>KELOMPOK 3 APLIKASI PEMESANAN MAKANAN</h1>
+<h2>ANGGOTA KELOMPOK</h2>
+<ul>
+  <li>RIZAL MAHENDRA | TI17200045 TUGAS : PERANCANGAN ALUR APLIKASI</li>
+  <li>M.Gunawan ridho pribadi  | TI17200023 TUGAS :PEMBUATAN DESAIN </li>
+  <li>Rudi irawan  | TI17200047 TUGAS :  DOPLOYMENT/NGODING  </li>
+  <li>Ihza dirgantara aji  | TI17200015 TUGAS :  dokumentasi dan testing</li>
+</ul>
+
 <h2>HALAMAN DAN FITUR YG DI BUAT</h2>
 <ul>
   <li>Login / Register</li>
